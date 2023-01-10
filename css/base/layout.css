@@ -1,0 +1,36 @@
+.container {
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color:#E1E0DB;
+    font-size: 150px;
+    text-align: center;
+    position: relative;
+}
+p:first-child {
+    display: inline-block;
+    margin: auto;
+}
+
+p:first-child:after {
+    content: '';
+    display: block;
+    width: 100px;
+    border-bottom: 3px solid #E1E0DB;
+    position: relative;
+    bottom: 0px;
+    right: -60px;
+}
+.text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: #6F6F6F;
+}

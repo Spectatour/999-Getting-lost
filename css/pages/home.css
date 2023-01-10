@@ -1,0 +1,13 @@
+
+@import '../3rd-party/font-awesome.min.css';
+@import '../base/base.css';
+@import '../base/layout.css';
+
+.hero {
+    height: 100vh;
+    background-image: url(../../img/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
